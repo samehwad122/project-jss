@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project-js</title>
+        <!-- start fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- end fonts -->
+         <!-- start slick -->
+          
+<link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
+         <!-- end slick -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<!-- start nav -->
+<nav>
+<div class="top-nav">
+<div>
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-solid fa-magnifying-glass"></i>
+</div>
+<div>   
+    <div>
+        <i class="fa-solid fa-user"></i>
+        <p> <a href="contactUs.html">login</a> </p>
+    </div>
+    <div>
+        <i class="fa-solid fa-pen-to-square"></i>
+        <p> Register New </p>
+    </div>
+    <div>
+        <i onclick="clickCart()" class="fa-solid fa-cart-shopping"></i>
+        <p class="caont0"> 0 </p>
+    </div>
+    <i class="fa-solid fa-bars togller close"></i>
+</div>
+</div>
+<div class="down-nav">
+    <div class="top-down-nav">
+        <div>
+            <img src="imgs/phone-2.svg" alt="">
+            <div>
+            <b>Call Us : (+20) 1885967233</b>
+            <p>E-mail : example@gmail.com</p>
+            </div>
+        </div>
+        <img src="imgs/logo.svg" alt="">
+        <div>
+            <img src="imgs/clock.svg" alt="">
+            <div>
+              
+            <b>Working Hours :</b>
+            <p>Sun - Wen ( 3.00pm - 6.00pm )</p>
+           </div>
+    </div>
+    
+</div>
+<div class="down-down-nav">
+    <ul>
+        <li><a class="activ" href="index.html">Home</a ></li>
+        <li><a href="#About">About Us</a></li>
+        <li><a href="#Services">Our Services</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="#Blogs">Blogs</a></li>
+        <li><a href="contactUs.html">Contact Us</a></li>
+    </ul>
+</div>
+</nav>
+<!-- end nav -->
+ <!-- start header -->
+  <header>
+    <div class="left-header">
+        <b>WElcome to : <img src="imgs/logo-2.svg" alt=""></b>
+        <h1>The World Best <span>Shoping</span> Website</h1>
+        <p>We Have aLL products You need in Just One Website ... Take a look !</p>
+        <div>
+            <button>Read More</button>
+            <button>Shope Now</button>
+        </div>
+    </div>
+    <div class="right-header">
+<img src="imgs/straw.png" alt="">
+    </div>
+  </header>
+ <!-- end header -->
+  <!-- start section-1-->
+  <section class="section-1">
+      <div class="title">
+          <p>Top Products</p>
+          <img src="imgs/hr (1).svg" alt="">
+        </div>
+        <div class="continar">
+            <div class="card">
+                <div>
+                    <img src="imgs/plate-1.png" alt="">
+        </div>
+        <hr>
+        <b>summer salad</b>
+        <div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        <p>$15.00 <del>$10.55</del></p>
+        <div>
+            <i class="fa-solid fa-cart-shopping"></i>   
+            <p> Add To Cart <i class="fa-solid fa-arrow-right"></i></p>
+        </div>
+    </div>
+    <div class="card">
+        <div>
+            <img src="imgs/plate-2.png" alt="">
+        </div>
+        <hr>
+        <b>Greek salad</b>
+        <div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        <p>$19.50 <del>$9.30</del></p>
+        <div>
+            <i class="fa-solid fa-cart-shopping"></i>   
+            <p> Add To Cart <i class="fa-solid fa-arrow-right"></i></p>
+        </div>
+    </div>
+    <div class="card">
+        <div>
+            <img src="imgs/plate-3.png" alt="">
+        </div>
+        <hr>
+        <b>Cottage-pie</b>
+        <div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        <p>$14.00 <del>$8.45</del></p>
+        <div>
+            <i class="fa-solid fa-cart-shopping"></i>   
+            <p> Add To Cart <i class="fa-solid fa-arrow-right"></i></p>
+        </div>
+    </div>
+    <div class="card">
+        <div>
+            <img src="imgs/plate-2.png" alt="">
+        </div>
+        <hr>
+        <b>Cottage-pie</b>
+        <div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        <p>$14.00 <del>$8.45</del></p>
+        <div>
+            <i class="fa-solid fa-cart-shopping"></i>   
+            <p> Add To Cart <i class="fa-solid fa-arrow-right"></i></p>
+        </div>
+    </div>
+</div>
+<div class="butt">
+    
+    <button>View More </button>
+</div>
+</section>
+<!-- end section-1 -->
+<!-- start section-2-->
+<section id="About" class="section-2">
+    <div class="title">
+        <p>About Fresh Meal</p>
+        <img src="imgs/hr (1).svg" alt="">
+      </div>
+      <div class="continar-2">
+        <div>
+            <img src="imgs/yogurt.png" alt="">
+        </div>
+        <div>
+            <b>
+                Fresh Meal Is a Long Establishedfact That a Reader Will Be Distracted</b>
+                <p>Countray To Popular Belief . Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolor, quis aspernatur provident non exercitationem! Est a architecto voluptatum rerum, repellat expedita asperiores numquam, beatae deleniti amet nesciunt laudantium assumenda!</p>
+                <button>Read More</button>
+        </div>
+      </div>
+</section>
+<!-- end section-2-->
+<!-- start section-3-->
+<section id="Services" class="section-3">
+    <div class="title">
+        <p>Our Services</p>
+        <img src="imgs/hr (1).svg" alt="">
+      </div>
+      <div class="continar-3">
+        <div class="card-2">
+
+                <img src="imgs/transport.svg" alt="">
+            <div>
+                <b>Free Home Delivery</b>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure natus omnis expedita.</p>
+                <button>Read More</button>
+            </div>
+
+        </div>
+        <div class="card-2 cardylluw">
+
+                <img src="imgs/bag.svg" alt="">
+            <div>
+                <b>30 Days Return</b>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure natus omnis expedita.</p>
+                <button>Read More</button>
+            </div>
+
+        </div>
+        <div class="card-2">
+                <img src="imgs/usd.svg" alt="">
+            <div>
+                <b>Mony Back Guranted</b>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure natus omnis expedita.</p>
+                <button>Read More</button>
+            </div>
+
+        </div>
+      </div>
+</section>
+<!-- end section-3-->
+<!-- start section-4-->
+<section class="section-4">
+    <div class="title">
+        <p>Big Deals Of The Week</p>
+        <img src="imgs/hr (1).svg" alt="">
+      </div>
+      <div class="continar">
+        <div class="contDiv">
+            <b>02</b>
+            <p>Days</p>
+        </div>
+        <div class="contDiv">
+            <b>24</b>
+            <p>Hours</p>
+        </div>
+        <div class="contDiv">
+            <b>55</b>
+            <p>Mintes</p>
+        </div>
+        <div class="contDiv">
+            <b>85</b>
+            <p>Secondes</p>
+        </div>
+      </div>
+</section>
+<!-- end section-4-->
+<!-- start section-5-->
+    <section id="Blogs" class="section-5">
+        <div class="title">
+            <p>Lastest News From Blog</p>
+            <img src="imgs/hr (1).svg" alt="">
+        </div> 
+        <div class="continar">
+            <div class="card">
+                <div>
+                    <img src="imgs/donut.jpg" alt="">
+                </div>
+                <div>
+                    <span><a href="">(Dec 15, 2023)</a></span>
+                  <span>(<a href="">Posted By</a> Hossam Ahmed)</span>
+                  <span><a href="">(12 Commentns)</a></span>
+                  
+                </div>
+                <div>
+                    <b>A cookie cake is a dessert that consists of a large cookie...</b>
+                    <p>Its A long Established fact That a Reader Will Be Distracked By The Readable Content Of The Page When Looking at its Layout , I Wish U Engoy Reading Nothing</p>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="imgs/coffee.jpg" alt="">
+                </div>
+                <div>
+                    <span><a href="">(Dec 15, 2023)</a></span>
+                  <span>(<a href="">Posted By</a> Hossam Ahmed)</span>
+                  <span><a href="">(12 Commentns)</a></span>
+                </div>
+                <div>
+                    <b>Coffee is a beverage prepared from roasted coffee beans...</b>
+                    <p>Its A long Established fact That a Reader Will Be Distracked By The Readable Content Of The Page When Looking at its Layout , I Wish U Engoy Reading Nothing</p>
+                </div>
+            </div>
+        </div>
+        <div class="butt">
+
+            <button>View More </button>
+        </div>
+    </section>
+<!-- end section-5-->
+<!-- start section-6-->
+<section class="section-6">
+    <div>
+        <img src="imgs/rasberry.png" alt="">
+    </div>
+    <div>
+        <b>Subscribe To Your NewsLetter</b>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi ad aliquid voluptas consequuntur dolore!</p>
+        <div class="foc">
+            <input type="email" placeholder="Enter Your E-mail">
+            <button>Subscribe</button>
+        </div>
+    </div>
+</section>
+<!-- end section-6-->
+<!-- start section-7-->
+<section class="section-7">
+    <div class="left-contact">
+        <div class="title">
+            <p>Contact US</p>
+            <img src="imgs/hr (1).svg" alt="">
+        </div> 
+        <div>
+            <img src="imgs/phone-2.svg" alt="">
+            <div>
+            <b>Call Us :</b>
+            <p>(+20) 155 450 7622</p>
+            </div>
+        </div>
+        <div>
+            <img src="imgs/email.svg" alt="">
+                 <div>
+            <b>E-mail :</b>
+            <p>hossamelazony18@gmail.com</p>
+            </div>
+        </div>
+        <div>
+            <img src="imgs/clock-2.svg" alt="">
+            <div>
+            <b>Working Hours :</b>
+            <p>Sun-Wen (3.00pm - 6.00pm)</p>
+            </div>
+        </div>
+        
+    </div>
+    <div class="right-contact">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d27480.526160662394!2d31.526284049999997!3d30.5756887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2seg!4v1736892506330!5m2!1sar!2seg" frameborder="0"></iframe>
+    </div>
+</section>
+<!-- end section-7-->
+<!-- start section-8-->
+ <section class="section-8">
+ <div class="menu">
+    <div class="title">
+        <p>Contact US</p>
+    </div>
+    <p>It was popularised in the 1960 with the release of Latest sheets containing Lorem Ipsum passage.</p>
+    <div>
+        <button>Read More</button>
+    </div>
+ </div>
+ <div class="menu">
+    <div class="title">
+        <p>Quik Links</p>
+    </div>
+<div>
+    <a href="">Home</a>
+    <a href="">About us</a>
+    <a href="">Products</a>
+    <a href="">Blog</a>
+    <a href="">Services</a>
+    <a href="">Gallery</a>
+    <a href="">Contact us</a>
+</div>
+ </div>
+ <div class="menu">
+    <div class="title">
+        <p>Follow Us</p>
+    </div>
+<div>
+    <p><a href=""><i class="fa-brands fa-facebook-f"></i> <span>facebook</span></a></p>
+    <p><a href=""><i class="fa-brands fa-instagram"></i></i> <span>instagram</span></a></p>
+    <p><a href=""><i class="fa-brands fa-twitter"></i> <span>twitter</span></a></p>
+    <p><a href=""><i class="fa-brands fa-google-plus-g"></i></i> <span>Google +</span></a></p>
+</div>
+ </div>
+ <div class="menu">
+    <div class="title">
+        <p>Gallery</p>
+    </div>
+<div class="imgsGalry">
+    <div>
+        <img src="imgs/food-table.jpg" alt="">
+        <img src="imgs/food-table.jpg" alt="">
+        <img src="imgs/food-table.jpg" alt="">
+
+    </div>
+    <div>
+        <img src="imgs/food-table.jpg" alt="">
+        <img src="imgs/food-table.jpg" alt="">
+        <img src="imgs/food-table.jpg" alt="">
+
+    </div>
+
+</div>
+ </div>
+ </section>
+<!-- end section-8-->
+<div class="foot">
+    <p>Copyright © 2025 .All rights reserved by <span>Hossam Ahmed</span>.</p>
+</div>
+<div class="menuCart">
+<div class="topMenu">
+    <i class="fa-regular fa-circle-xmark"></i>
+    <h2> Cart Items</h2>
+</div>
+    <div class="cartProduct">
+        <div><img src="imgs/plate-2.png" alt=""></div>
+        <div class="nameProduct">
+            <b>Fresh vagies</b>
+            <p>$30.00</p>
+        </div>
+        <div class="caontar">
+            <span>+</span>
+            <p>0</p>
+            <span>-</span>
+            <i class="fa-solid fa-trash"></i>
+        </div>
+    </div>
+    <hr>
+
+    <div class="footCart">
+        <h5>total</h5>
+        <p>$0.00</p>
+    </div>
+</div>
+<i class="fa-regular fa-circle-up"></i>
+
+<script src="script/jequery.js"></script>
+<script src="slick-1.8.1/slick/slick.min.js"></script>
+<script src="script/main.js"></script>
+</body>
+</html>
